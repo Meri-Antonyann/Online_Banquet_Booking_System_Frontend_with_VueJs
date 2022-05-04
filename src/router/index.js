@@ -29,11 +29,12 @@ import ContactUs from '@/components/admin/ContactUsQueries'
 import Reports from '@/components/admin/Dashboard/Reports'
 import Error from '@/components/UnknownPage'
 import ChangePsw from '@/components/ChangePassword'
-
+var historyApiFallback = require('connect-history-api-fallback');
 Vue.use(Router)
 
 const router =  new Router({
   mode: 'history',
+  historyApiFallback: true,
   base: process.env.BASE_URL,
   routes: [
     {path: '/', name: 'HelloWorld', component: HelloWorld},
