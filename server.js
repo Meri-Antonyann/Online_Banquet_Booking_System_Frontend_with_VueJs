@@ -8,4 +8,10 @@ app.use(serveStatic(path.join(__dirname, 'dist')));
 app.use(history());
 const port = process.env.PORT || 5000;
 app.listen(port);
+if(process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+  app.get("/*", function(req, res) {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  });
+}
 
