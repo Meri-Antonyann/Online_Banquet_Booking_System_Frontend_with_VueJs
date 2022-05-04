@@ -45,7 +45,7 @@ export default {
   methods: {
     requestResetPassword() {
       let currentObj = this;
-      this.axios.post("Forgotpassword", {email: this.email}).then(result => {
+      this.axios.post("forgotpassword", {email: this.email}).then(result => {
 
           this.response = result.data.data;
           console.log(result.data);
