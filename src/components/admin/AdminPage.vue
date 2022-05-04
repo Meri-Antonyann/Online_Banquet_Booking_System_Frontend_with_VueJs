@@ -93,7 +93,7 @@ export default {
           localStorage.removeItem("access_token");
           localStorage.removeItem("role");
           this.$router.push({name: "Login"})
-         // this.$router.go()
+          this.$router.go()
         }).catch(error=>{
           console.log(error)
         })
