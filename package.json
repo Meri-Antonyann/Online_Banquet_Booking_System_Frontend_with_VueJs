@@ -6,9 +6,9 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "node server.js",
-    "build": "node build/build.js",
-    "postinstall": "npm run build",
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
     "serve": "vue-cli-service serve"
   },
   "dependencies": {
