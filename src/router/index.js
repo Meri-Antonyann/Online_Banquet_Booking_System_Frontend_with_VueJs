@@ -34,6 +34,7 @@ Vue.use(Router)
 
 const router =  new Router({
   mode: 'history',
+  base: process.env.BASE_URL,
   routes: [
     {path: '/', name: 'HelloWorld', component: HelloWorld},
     {path: '/admin', name: 'AdminPage', component: AdminPage,meta: { requiresAuth: true }},
