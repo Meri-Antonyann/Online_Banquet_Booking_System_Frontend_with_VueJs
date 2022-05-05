@@ -9,7 +9,7 @@
       </div>
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-signal logo">
-          <img :src="'http://127.0.0.1:8000/logo/' + logo" alt="img" style="width: 300px; height: 300px;" class="border">
+          <img src="../assets/logo.png" alt="img" style="width: 300px; height: 300px;" class="border">
 
 
         </span>

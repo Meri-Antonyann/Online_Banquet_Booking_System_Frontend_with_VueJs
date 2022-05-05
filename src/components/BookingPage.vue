@@ -127,29 +127,6 @@
             </option>
           </select>
 
-          <validation
-            name="price"
-            rules="required"
-          >
-            <b-form-group
-              label-class="form-label"
-              label="Price"
-              label-for="price"
-              class="text-light mt-3"
-              slot-scope="{ errors }"
-              :invalid-feedback="errors[0]"
-            >
-              <b-form-input
-                id="price"
-                v-model="price"
-                style="opacity: 0.5"
-                :state="errors[0] ? false : null"
-                trim
-
-              />
-            </b-form-group>
-          </validation>
-
           <label for="event" class="text-light mt-3"> Type of event</label>
           <select v-model="selectedevent" @change="onchange($event)"  class="w-100 mt-3 " style="opacity: 0.5; height: 35px; border-radius: 5%">
             <option v-for="event in events" :value="event.name" >

@@ -4,7 +4,7 @@
       <div class="card bg-dark text-light p-5">
         <div class=" image d-flex flex-column justify-content-center align-items-center">
           <button class="btn btn-secondary">
-            <img :src="'https://online-banquet-booking-backend.herokuapp.com/avatar/' + data.file" alt="img" style="width: 50px; height: 50px;" class="border">
+            <img src="./avatar/photo-1529626455594-4ff0802cfb7e.jpeg" alt="img" style="width: 50px; height: 50px;" class="border">
           </button>
           <span class="name mt-3">{{this.fullname}}</span>
           <span class="idd">{{data.email}}</span>

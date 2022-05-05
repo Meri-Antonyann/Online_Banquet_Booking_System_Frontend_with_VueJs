@@ -70,33 +70,33 @@
             </b-form-group>
           </validation>
 
-          <validation
-            name="file"
-          >
-            <b-form-group
-              label-class="form-label"
-              label="Image"
-              label-for="file"
-              slot-scope="{ errors }"
-              :invalid-feedback="errors[0]"
-            >
-              <b-form-file
-                id="file"
-                type="file"
-                v-model="file"
-                v-on:change="imageSelected"
-                :state="errors[0] ? false : null"
-                trim
-                placeholder="Choose a file or drop it here..."
-                drop-placeholder="Drop file here..."
-              ></b-form-file>
-            </b-form-group>
-          </validation>
+<!--          <validation-->
+<!--            name="file"-->
+<!--          >-->
+<!--            <b-form-group-->
+<!--              label-class="form-label"-->
+<!--              label="Image"-->
+<!--              label-for="file"-->
+<!--              slot-scope="{ errors }"-->
+<!--              :invalid-feedback="errors[0]"-->
+<!--            >-->
+<!--              <b-form-file-->
+<!--                id="file"-->
+<!--                type="file"-->
+<!--                v-model="file"-->
+<!--                v-on:change="imageSelected"-->
+<!--                :state="errors[0] ? false : null"-->
+<!--                trim-->
+<!--                placeholder="Choose a file or drop it here..."-->
+<!--                drop-placeholder="Drop file here..."-->
+<!--              ></b-form-file>-->
+<!--            </b-form-group>-->
+<!--          </validation>-->
 
-          <div v-if="imagepreview" class="mt-3">
-            <img :src="imagepreview" class="figure-img img-fluid rounded" style="height: 200px; width: 200px;" >
+<!--          <div v-if="imagepreview" class="mt-3">-->
+<!--            <img :src="imagepreview" class="figure-img img-fluid rounded" style="height: 200px; width: 200px;" >-->
 
-          </div>
+<!--          </div>-->
 
           <div class="mt-3">
             <b-button
