@@ -1,5 +1,5 @@
 <template>
- <div class="container-fluid   d-flex flex-column justify-content-center align-items-center">
+ <div class="container    d-flex flex-column justify-content-center align-items-center">
    <b-input-group size="sm" class="mb-2 mt-5  _searchinput">
      <b-input-group-prepend is-text>
        <b-icon icon="search"></b-icon>
@@ -46,7 +46,7 @@ export default {
 
 <style>
 ._searchinput{
-  width: 500px;
+  width: 300px;
   border-radius: 8px;
 }
 </style>
