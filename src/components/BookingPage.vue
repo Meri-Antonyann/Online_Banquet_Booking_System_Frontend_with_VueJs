@@ -189,8 +189,7 @@
         number:"",
         message:"",
         guests:"",
-        price:"",
-        myFunc(e){
+         myFunc(e){
           return this.selectedservice = e.target.value
           console.log(this.selectedservice)
         },
@@ -244,7 +243,6 @@
         formData.append('event', this.selectedevent);
         formData.append('service', this.selectedservice);
         formData.append('message', this.message);
-        formData.append('price', this.price);
 
 
 
