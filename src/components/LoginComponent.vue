@@ -18,7 +18,7 @@
               <b-form-input
                 id="email"
                 v-model="formData.email"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />
@@ -39,7 +39,7 @@
                 id="password"
                 v-model="formData.password"
                 type="password"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />

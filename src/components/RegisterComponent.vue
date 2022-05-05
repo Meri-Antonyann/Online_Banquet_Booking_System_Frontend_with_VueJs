@@ -18,7 +18,7 @@
               <b-form-input
                 id="name"
                 v-model="name"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
 
@@ -40,7 +40,7 @@
               <b-form-input
                 id="surname"
                 v-model="surname"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />
@@ -61,7 +61,7 @@
               <b-form-input
                 id="email"
                 v-model="email"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />
@@ -82,7 +82,7 @@
                 id="password"
                 v-model="password"
                 type="password"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />
@@ -103,7 +103,7 @@
                 id="repassword"
                 v-model="repassword"
                 type="password"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />

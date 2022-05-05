@@ -41,7 +41,7 @@
               <b-form-input
                 id="surname"
                 v-model="surname"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />
@@ -63,7 +63,7 @@
                 id="email"
                 class="text-dark"
                 v-model="email"
-                style="opacity: 0.2"
+                style="opacity: 0.5;"
                 :state="errors[0] ? false : null"
                 trim
               />

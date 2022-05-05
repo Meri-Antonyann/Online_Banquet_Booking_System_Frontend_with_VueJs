@@ -133,18 +133,18 @@
            </b-form-group>
          </validation>
 
-           <b-form-group
-             label-class="form-label"
-             label="Logo"
-             label-for="file"
-           >
-             <b-form-file
-               id="file"
-               type="file"
-               v-model="datatwo.file"
-               v-on:change="imageSelected"
-             ></b-form-file>
-           </b-form-group>
+<!--           <b-form-group-->
+<!--             label-class="form-label"-->
+<!--             label="Logo"-->
+<!--             label-for="file"-->
+<!--           >-->
+<!--             <b-form-file-->
+<!--               id="file"-->
+<!--               type="file"-->
+<!--               v-model="datatwo.file"-->
+<!--               v-on:change="imageSelected"-->
+<!--             ></b-form-file>-->
+<!--           </b-form-group>-->
 
 
          <div class="mt-3">
