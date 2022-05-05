@@ -1,6 +1,6 @@
 <template>
   <nav class="sideNav d-flex flex-column align-items-center ">
-     <div class="container  mb-2 p-3 d-flex justify-content-center">
+     <div class="container  mb-1 p-3 d-flex justify-content-center">
       <div class="card bg-dark text-light p-5">
         <div class=" image d-flex flex-column justify-content-center align-items-center">
           <button class="btn btn-secondary">
