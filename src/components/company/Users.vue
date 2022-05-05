@@ -17,7 +17,7 @@
        <td>{{ user.surname }}</td>
        <td>{{ user.email }}</td>
        <td>
-         <img :src="'http://127.0.0.1:8000/avatar/' + user.file" alt="img" style="width: 50px; height: 50px;" class="border">
+         <img :src="'https://online-banquet-booking-backend.herokuapp.com/avatar/' + user.file" alt="img" style="width: 50px; height: 50px;" class="border">
 
        </td>
 

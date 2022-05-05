@@ -89,7 +89,7 @@ export default {
 
       await this.LOGIN_USER(this.formData).then((res) => {
         console.log(res)
-        if(res) this.$router.push({name: "Dashboard"})
+        if(res) this.$router.push({name: "Booking"})
         this.$router.go();
       }).catch(err => {
         if(err) alert('Ooops! There is an error');

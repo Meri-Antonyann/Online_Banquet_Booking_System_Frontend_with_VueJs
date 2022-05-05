@@ -202,7 +202,7 @@ export default {
           console.log(response)
           if (response){
             localStorage.setItem('access_token', response.data.token)
-            this.$router.push({name: "Booking"})
+            this.$router.push({name: "AddService"})
             this.$router.go()
           }
           })
