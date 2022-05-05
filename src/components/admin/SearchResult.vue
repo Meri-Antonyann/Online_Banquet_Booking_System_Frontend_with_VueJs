@@ -58,7 +58,7 @@ export default {
   methods:{
     async searchdata(){
       await this.axios.get(`searchdata/${this.$route.params.id}`).then(response=> {
-        this.booking = response.data.booking
+        this.booking = response.data.booking[0]
         console.log(this.booking)
       })
     },
