@@ -24,10 +24,7 @@
         <span class="fw-bolder">Service:</span>
         {{booking.service}}
       </p>
-      <p class="bg-light w-50 mb-3" style="margin: 0 auto; opacity: 0.5; color: black">
-        <span class="fw-bolder">  Service Price:</span>
-        ${{booking.price}}
-      </p>
+
       <p class="bg-light w-50 mb-3" style="margin: 0 auto; opacity: 0.5; color: black">
         <span class="fw-bolder">  Message:</span>
         {{booking.message}}
