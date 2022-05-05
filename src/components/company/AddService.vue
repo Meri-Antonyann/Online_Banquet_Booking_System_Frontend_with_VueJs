@@ -58,7 +58,7 @@
                   variant="success"
                   block
                   type="submit"
-
+                  @click="refreshing"
                 >
                   Add
                 </b-button>
