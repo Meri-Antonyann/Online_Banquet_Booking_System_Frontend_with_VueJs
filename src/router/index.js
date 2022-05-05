@@ -18,6 +18,7 @@ import ViewBooking from '@/components/ViewBooking'
 import BookingQueries from '@/components/BookingQueries'
 import Dashboard from '@/components/admin/AdminDashboard'
 import Search from '@/components/admin/SearchComponent'
+import Result from '@/components/admin/SearchResult'
 import New from '@/components/admin/Dashboard/NewBookings'
 import Cancelled from '@/components/admin/Dashboard/CancelledBookoings'
 import Approved from '@/components/admin/Dashboard/ApprovedBookings'
@@ -54,6 +55,7 @@ const router =  new Router({
     {path: '/queries', name: 'BookingQueries', component: BookingQueries,meta: { requiresAuth: true, AdminCheck:true }},
     {path: '/dashboard', name: 'Dashboard', component: Dashboard, meta: { requiresAuth: true}},
     {path: '/search', name: 'Search', component: Search,meta: { requiresAuth: true, AdminCheck:true }},
+    {path: '/result', name: 'Result', component: Result,meta: { requiresAuth: true, AdminCheck:true }},
     {path: '/about', name: 'About', component: About},
     {path: '/new', name: 'New', component: New,meta: { requiresAuth: true , AdminCheck:true}},
     {path: '/cancelled', name: 'Cancelled', component: Cancelled,meta: { requiresAuth: true, AdminCheck:true }},

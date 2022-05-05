@@ -9,7 +9,7 @@
 
    </b-input-group>
    <ul v-if="bookings.length > 0">
-     <router-link  v-for="booking in bookings" :key="booking.id" :to='{name:"Search",params:{id:booking.id}}'>
+     <router-link  v-for="booking in bookings" :key="booking.id" :to='{name:"Result",params:{id:booking.id}}'>
        <li class="text-secondary  ">
          <span class="h5">{{booking.name}}</span>
          {{booking.email}}
